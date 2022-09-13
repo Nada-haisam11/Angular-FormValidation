@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(252, 252, 241);
+}
+.form-title {
+    font-size: 24px;
+    margin: 0 0 30px;
+    font-weight: 600;
+    margin-top: 100px; 
+}
+
+.form-control::placeholder{
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.form-control {
+    height: 48px;
+    border-color: rgb(19, 19, 19);
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: none;
+} 
+
+.seleect-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 13px;
+}
+
+select.form-control:focus option{
+    background-color: rgb(3, 3, 3);
+}
+
+textarea.form-control{
+    height: 120px;
+    resize: none;
+}
+

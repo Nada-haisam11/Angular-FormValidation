@@ -1,0 +1,15 @@
+.detail{
+    margin-top: 200px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+}
